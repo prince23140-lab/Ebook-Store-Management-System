@@ -42,10 +42,6 @@ Before running this application, ensure you have:
 
 <img width="1441" height="809" alt="image" src="https://github.com/user-attachments/assets/223ad4bb-d930-48b9-9b9b-6b01bc055ed6" />
 
-**!For Enum**
-
-<img width="234" height="614" alt="image" src="https://github.com/user-attachments/assets/87e76cc6-3bd2-4020-b27d-6250921565fd" />
-
 
 ## 🗄️ Database Setup
 
