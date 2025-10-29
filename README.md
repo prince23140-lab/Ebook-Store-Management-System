@@ -68,7 +68,14 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 # Server Configuration
 server.port=8081
 ```
+### 🏙️ Rwanda Location Hierarchy
+Province (5)
+ └── District (30+)
+     └── Sector (400+)
+         └── Cell (2,000+)
+             └── Village (14,000+)
 
+---
 ## 🏗️ Project Structure
 
 ```
