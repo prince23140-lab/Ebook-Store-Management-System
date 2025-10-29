@@ -38,6 +38,15 @@ Before running this application, ensure you have:
 - **PostgreSQL 12** or later
 - **Postman** (for API testing)
 
+**!ER Diagram Image**
+
+<img width="1441" height="809" alt="image" src="https://github.com/user-attachments/assets/223ad4bb-d930-48b9-9b9b-6b01bc055ed6" />
+
+**!For Enum**
+
+<img width="234" height="614" alt="image" src="https://github.com/user-attachments/assets/87e76cc6-3bd2-4020-b27d-6250921565fd" />
+
+
 ## 🗄️ Database Setup
 
 ### 1. PostgreSQL Configuration
@@ -257,44 +266,19 @@ Follow this exact order for testing:
 ### 3. Sample Test Data
 
 #### Create Location:
-```json
-{
-    "province": "Kigali",
-    "district": "Gasabo", 
-    "sector": "Remera",
-    "cell": "Gishushu",
-    "village": "Amahoro"
-}
-```
+
+<img width="855" height="664" alt="image" src="https://github.com/user-attachments/assets/a3fa309b-a722-40fa-aeec-70a4ebf9e59a" />
+
 
 #### Create User:
-```json
-{
-    "full_name": "John Customer",
-    "email": "john.customer@example.com",
-    "password": "password123", 
-    "phone": "0781234567",
-    "role": "CUSTOMER",
-    "location": {
-        "location_id": "PASTE_LOCATION_ID"
-    }
-}
-```
+
+<img width="844" height="629" alt="image" src="https://github.com/user-attachments/assets/a1da9996-7314-47c5-a8d7-020195bfcc5f" />
+
 
 #### Create Book:
-```json
-{
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "category": {
-        "category_id": "PASTE_CATEGORY_ID"
-    },
-    "price": 15.99,
-    "stock_quantity": 50,
-    "cover_image": "great-gatsby.jpg",
-    "file_url": "books/great-gatsby.pdf"
-}
-```
+
+<img width="846" height="541" alt="image" src="https://github.com/user-attachments/assets/ad4c4dc9-880c-4089-b2d8-dc7a780e25de" />
+
 
 ## 📊 Database Schema
 
@@ -341,23 +325,9 @@ Follow this exact order for testing:
 ## 🔧 Configuration
 
 ### Application Properties
-```properties
-# Server
-server.port=8081
 
-# Database
-spring.datasource.url=jdbc:postgresql://localhost:5432/ebookstore
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+<img width="676" height="372" alt="image" src="https://github.com/user-attachments/assets/ad079117-3460-49d1-b896-98611ba3e4d6" />
 
-# JPA
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-# Logging
-logging.level.auca.ac.rw.ebook=DEBUG
-```
 
 ### Enum Types
 - **UserRole**: `CUSTOMER`, `ADMIN`
@@ -385,8 +355,6 @@ logging.level.auca.ac.rw.ebook=DEBUG
 4. **Enum value errors**:
    - Use exact enum values: `CUSTOMER`, `ADMIN`, etc.
 
-5. **Date format issues**:
-   - Use ISO format: `"2024-01-15T10:30:00"`
 
 ### Logs and Debugging
 - Check Spring Boot console for detailed error messages
@@ -412,7 +380,7 @@ logging.level.auca.ac.rw.ebook=DEBUG
 
 ## 👥 Development Team
 
-- **Prince** - Full Stack Developer
+- **Prince Nziza** - Full Stack Developer
 - **Course**: Web Technology
 - **Institution**: AUCA University
 - **Academic Project**: Midterm Assessment
@@ -435,4 +403,3 @@ For technical support or questions about this project, please contact the develo
 
 ---
 
-**Happy Coding!** 🚀
