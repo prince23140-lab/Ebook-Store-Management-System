@@ -52,13 +52,13 @@ Before running this application, ensure you have:
 ### 1. PostgreSQL Configuration
 ```sql
 -- Create database
-CREATE DATABASE ebookstore;
+CREATE DATABASE ebook_db;
 
 -- Create user (optional)
-CREATE USER ebook_user WITH PASSWORD 'password123';
+CREATE USER postgres WITH PASSWORD 'root';
 
 -- Grant privileges
-GRANT ALL PRIVILEGES ON DATABASE ebookstore TO ebook_user;
+GRANT ALL PRIVILEGES ON DATABASE ebook_db TO postgres;
 ```
 
 ### 2. Application Properties
