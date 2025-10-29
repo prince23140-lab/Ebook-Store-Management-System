@@ -62,21 +62,9 @@ GRANT ALL PRIVILEGES ON DATABASE ebookstore TO ebook_user;
 ```
 
 ### 2. Application Properties
-Update `src/main/resources/application.properties`:
-```properties
-# Database Configuration
-spring.datasource.url=jdbc:postgresql://localhost:5432/ebookstore
-spring.datasource.username=ebook_user
-spring.datasource.password=password123
 
-# JPA Configuration
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+<img width="676" height="372" alt="image" src="https://github.com/user-attachments/assets/ad079117-3460-49d1-b896-98611ba3e4d6" />
 
-# Server Configuration
-server.port=8081
-```
 ### 🏙️ Rwanda Location Hierarchy
 Province (5)
  └── District (30+)
