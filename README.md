@@ -130,17 +130,8 @@ src/main/java/auca/ac/rw/ebook/
 
 ## 🚀 Running the Application
 
-### 1. Clone and Setup
-```bash
-# Clone the project
-git clone <repository-url>
-cd ebook
 
-# Build the project
-mvn clean install
-```
-
-### 2. Run the Application
+### 1. Run the Application
 ```bash
 # Run using Maven
 mvn spring-boot:run
@@ -149,12 +140,19 @@ mvn spring-boot:run
 java -jar target/ebook-0.0.1-SNAPSHOT.jar
 ```
 
-### 3. Verify Startup
+### 2. Verify Startup
 You should see:
 ```
 Tomcat initialized with port 8081 (http)
 Started EbookApplication in X.XXX seconds
 ```
+
+### Run Image:
+
+<img width="1322" height="316" alt="image" src="https://github.com/user-attachments/assets/611a4823-475a-4cfd-b534-fe224cd356f8" />
+
+
+
 
 ## 📚 API Endpoints
 
