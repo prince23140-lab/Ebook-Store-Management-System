@@ -1,4 +1,4 @@
-# EbookStore Management System
+# EbookStore Management System (Online Book Shopping System)
 
 A comprehensive Spring Boot-based EbookStore Management System that handles user management, book catalog, shopping cart, orders, payments, and reviews with Rwandan administrative location integration.
 
