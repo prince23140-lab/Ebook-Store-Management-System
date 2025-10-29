@@ -295,7 +295,12 @@ Follow this exact order for testing:
 2. **Complete CRUD Operations**: All entities have full CRUD
 3. **JPA Repository Methods**: 
    - `findBy...` queries
-   - `existsBy...` queries  
+   - `existsBy...` queries
+
+<img width="1251" height="708" alt="image" src="https://github.com/user-attachments/assets/e691a059-3e50-474e-a8f3-27f373f23743" />
+
+  
+   -   
    - Sorting and Pagination
    - Custom query methods
 4. **Rwandan Location Table**: Full hierarchy implemented
